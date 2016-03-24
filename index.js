@@ -81,7 +81,7 @@
       }
 
       function EmptyTree () { }
-      EmptyTree.prototype.toString = function () { return "null"; };
+      EmptyTree.prototype.toString = function () { return ""; };
       EmptyTree.prototype.valueOf = function () { return null; };
 
       function objectify (vValue) {
