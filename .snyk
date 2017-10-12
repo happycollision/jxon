@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - mocha-phantomjs > phantomjs > request > hawk:
+        patched: '2017-10-12T23:50:14.035Z'
+  'npm:qs:20140806-1':
+    - mocha-phantomjs > phantomjs > request > qs:
+        patched: '2017-10-12T23:50:14.035Z'
+  'npm:request:20160119':
+    - mocha-phantomjs > phantomjs > request:
+        patched: '2017-10-12T23:50:14.035Z'
